@@ -1,0 +1,11 @@
+//run("Brightness/Contrast...");
+//run("Enhance Contrast", "saturated=0.35");
+// run("Apply LUT", "stack");
+//run("Close");
+run("Duplicate...", "duplicate");
+run("Subtract Background...", "rolling=15 light sliding stack");
+setAutoThreshold("Default dark");
+//run("Threshold...");
+setOption("BlackBackground", true);
+run("Convert to Mask", "background=Light calculate black create");
+//run("Fill Holes", "stack");
