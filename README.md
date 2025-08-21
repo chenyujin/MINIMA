@@ -1,5 +1,7 @@
 ## MINIMA
 Code for image and data analysis used in MSCA MINIMA project. 
+## License
+This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 ### Data analysis procedure 
 **Original data:** Bacteria single cells grow into colonies imaged by IX83
